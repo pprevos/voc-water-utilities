@@ -1,0 +1,24 @@
+#+title: Voice of the Customer for Water Utilities
+
+This project is an open source book about methods to measure the /Voice of the customer/ (Voc) in water utilities. This project includes:
+
+- Website
+- Book
+- Codex
+- Data examples
+
+* License and Copyright
+** Code
+All code is licensed under the GNU General Public License (version 3). This license grants four basic freedoms:
+
+- The freedom to run the program as you wish, for any purpose.
+- The freedom to study how the program works, and change it so it does your computing as you wish.
+- The freedom to redistribute copies so you can help others.
+- The freedom to distribute copies of your modified versions to others.
+
+** Text, Images and Data
+The text, images and data are licensed under Creative Commons (BY-NC-SA). This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms. CC BY-NC-SA includes the following elements:
+
+- BY: credit must be given to the creator.
+- NC: Only noncommercial uses of the work are permitted.
+- SA: Adaptations must be shared under the same terms.
