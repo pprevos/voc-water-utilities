@@ -1,0 +1,14 @@
+#+title: Foreword
+
+#+begin_export html
+&nbsp;
+<p style="text-align:right">Guest author</p>
+#+end_export
+
+#+begin_export latex
+\vspace{1em}
+\begin{flushright}
+Guest author
+\end{flushright}
+#+end_export
+
