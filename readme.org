@@ -1,11 +1,29 @@
 #+title: Voice of the Customer for Water Utilities
 
-This project is an open source book about methods to measure the /Voice of the customer/ (Voc) in water utilities. This project includes:
+This project is provides open source book about methods to measure the /Voice of the customer/ (Voc) in water utilities. This project includes:
 
-- Website
-- Book
-- Codex
-- Data examples
+[[file:images/voice-of-the-customer.png]]
+
+* Voice of the Customer Book
+This book is written in Emacs Org mode format and the R language for statistical computing using literal programming.
+
+1. [[file:01-voc-introduction.org][Introduction]]
+2. [[file:02-voc-surveys.org][Quantitative Surveys]]
+3. [[file:03-vox-qualitative-data-science.org][Introduction to Qualitative Data Analysis]]
+4. [[file:04-voc-text-analysis.org][Principles of Compuational Text Analysis]]
+5. [[file:05-voc-sentiment-analysis.org][Extracting Sentiments]]
+6. [[file:06-voc-topic-analysis.org][Analysing Topics]]
+7. [[file:07-voc-indirect.org][Indirect Voice of the Customer Measurement]]
+8. [[file:08-voc-implementation.org][Synthesis]]
+
+* Scripts
+The =scripts= directory contains scripts for the case studies used in this book. All scripts are written in the Tidyverse dialect of the R language for statistical computing.
+
+* Data Examples
+The =data= directory contains the case study data used in this book. This data was collected from public sources or synthesises using statistical methods and Large Language Models.
+
+* Images
+All images in this repository were created by the author or generated using code.
 
 * License and Copyright
 ** Code
