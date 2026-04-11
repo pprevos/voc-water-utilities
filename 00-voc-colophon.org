@@ -8,7 +8,7 @@
 <img src="logo-bw.png" width="100" alt="Third hemisphere Publishing" title="Third hemisphere Publishing"/>	
 </div>
 <h3 style="text-align:center">&#169; Peter Prevos (2026)</h3>
-<p style="text-align: center;">ISBN *** (E-book)</p>
+<p style="text-align: center;">ISBN 978-*** (E-book)</p>
 <p>&nbsp;</p>
 <p>This work is licensed under a Creative Commons Attribution-Share Alike 4.0 International License. You are free to share to copy, distribute and transmit the work under the following conditions:</p>
 <ul>
@@ -25,7 +25,7 @@
 
 % Half title
 \begin{center}
-  \textbf{\Huge Tapping Into the Source}
+  \textbf{\Huge Voice of the Customer\\for Water Utilities}
 \end{center}
 \thispagestyle{empty}
 \newpage
@@ -35,9 +35,9 @@
 
 % Title Page
 \begin{center}
-  \textbf{\Huge Tapping Into the Source}\\
+  \textbf{\Huge Voice of the Customer for Water Utilities}\\
   \vspace{1.5cm}
-  \textbf{A Data-Driven Guide to the Voice of the Customer for Water Utilities}\\
+  \textbf{A Data-Driven Guide}\\
   \vspace{2em}
   Peter Prevos\\
   % Logo and Publisher Information
@@ -65,7 +65,7 @@
         {\small \href{https://peterprevos.com}{peterprevos.com}}
 
         \vspace{2em}
-        ISBN 978-0-9875669-9-7 (Paperback)
+        ISBN 978-*** (Paperback)
     \end{center}
 
     \vspace{1.5em}
@@ -84,6 +84,10 @@
     \begin{center}
         {\small Written in Emacs \href{https://orgmode.org/}{Org Mode}. Typeset in \LaTeX.}
     \end{center}
+    \vspace{2em}
+    \begin{center}
+        {The author certifies that this work is a product of original human creativity. Artificial Intelligence was used as a supportive tool for research and structural refinement, but the final narrative, prose, and creative expressions are the sole work of the author.}
+        \end{center}
 \end{minipage}}
 
 \newpage
