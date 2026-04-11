@@ -1,0 +1,10 @@
+#+title: Voice of the Customer Analysis Scripts
+
+This folder contains examples of how to extract he Voice of the Customer from raw data.
+
+
+
+* Files
+
+
+* Data
