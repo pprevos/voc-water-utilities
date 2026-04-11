@@ -1,0 +1,98 @@
+#+title:        Voice of the Customer for Water Utilities
+#+subtitle:     A Data-Driven Guide
+#+author:       Peter Prevos
+#+date:         2026
+#+publisher:    Third Hemisphere Publishing
+#+license:      Creative Commons Attribution-Share Alike 4.0 International
+#+description:  Water utilities are moving beyond technical reliability to understand the people they service. While tap water remains invisible in daily life, social and political pressures demand a systematic focus on the customer experience. This book bridges the gap between the physical sciences of engineering and the social science of marketing. Through psychometric analysis and advanced computational methods, this book provides a roadmap for quantifying the intangible.
+#+keywords:     Water Supply, Marketing
+#+subject:      Water Supply, Marketing
+#+language:     English
+#+uid:          TBA
+#+epubcover:    images/voc-cover-gemini.png
+#+bibliography: book/voc.bib
+#+cite_export:  csl book/apa6.csl
+#+latex_class:  ews
+#+options:      html-postamble:nil tex:dvipng toc:nil date:nil
+#+macro:        voc /Voice of the Customer/
+#+include:      "00-voc-colophon.org"
+#+latex_header: \newcommand{\tablefont}{\footnotesize} % Smaller table font
+#+latex_header: % Patch tabular/tabular* environments
+#+latex_header: \AtBeginEnvironment{tabular}{\tablefont}
+#+latex_header: \AtBeginEnvironment{tabular*}{\tablefont}
+#+startup:      num content
+#+property:     header-args:R :session *R* :exports results
+
+* Foreword
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+:NOTES:
+- [X] By Insync dude?
+:END:
+#+include: "00-voc-foreword.org" :lines "2-"
+
+* Preface
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+#+include: "00-voc-preface.org" :lines "2-"
+#+begin_export latex
+\mainmatter
+#+end_export
+
+#+begin_src R :results none
+  ggplot2::set_theme(theme_minimal(base_size = 22))
+#+end_src
+* Introduction
+:PROPERTIES:
+:CUSTOM_ID: chap-intro
+:END:
+#+include: "01-voc-introduction.org" :lines "2-"
+
+* Extracting Value from Quantitative Survey Data
+:PROPERTIES:
+:CUSTOM_ID: chap-survey
+:END:
+#+include: "02-voc-surveys.org" :lines "2-"
+
+* Qualitative Data Science
+:NOTES:
+
+:END:
+:PROPERTIES:
+:CUSTOM_ID: chap-qual
+:END:
+#+include: "03-vox-qualitative-data-science.org" :lines "2-"
+
+* Statistical Text Analysis
+:NOTES:
+Introduction to quantitative text analysis; converting plain text to an analysable format and explore the content
+:END:
+:PROPERTIES:
+:CUSTOM_ID: chap-text
+:END:
+#+include: "04-voc-text-analysis.org" :lines "2-"
+
+* Sentiment Analysis
+:PROPERTIES:
+:CUSTOM_ID: chap-sentiment
+:END:
+#+include: "05-voc-sentiment-analysis.org" :lines "2-"
+
+* Topic Analysis
+#+include: "06-voc-topic-analysis.org" :lines "2-"
+
+* Indirect 
+#+include: "07-voc-indirect.org" :lines "2-"
+
+* Synthesis
+#+include: "08-voc-implementation.org" :lines "2-"
+
+#+begin_export latex
+\backmatter
+#+end_export
+
+* References
+#+print_bibliography:
+
