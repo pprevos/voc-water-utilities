@@ -1,0 +1,172 @@
+#+title: Extracting Value from Quantitative Survey Data
+#+property: header-args:R :session *R* :exports results
+#+startup: latexpreview
+
+* Introduction
+
+When water utility professionals measure physical parameters such as pH or pressure, they use instruments that provide a signal that provide that information. These instruments do, however, not directly measure these parameters but apply physics and chemistry to create a proxy that can be tranformed to an electrical signal. Engineers who rely on these instruments understand how these devices and ensure they are calibrated.
+
+Unfortunately, when measuring the {{{voc}}} through surveys, this professional rigour is often abandoned.
+
+This chapter discusses how to use quantitative surveys to elicit the voice of the customer. 
+
+* Constructing Survey Questions
+
+** Single-question constructs
+
+*** Net Promoter Score
+The basic principle of the Net Promoter Score (NPS) is that each respondent is asked how likely they will recommend the service to somebody they know. The customer answers this questions with a score from zero to ten.
+
+Any customer that answers six or lower is a detractor, customers that score nine or ten are promoters and the remainder (seven and eight) are passives. The NPS is the percentage difference between the ratio of promoters ($p$) and detractors  ($d$):
+
+$$NPS = \frac{100 (p - d)}{n}$$
+
+
+
+** Wording Questions
+
+The technical quality dimension of the ServAqua scale consists of five
+
+- Tap water is available whenever I need it
+- My tap water is always safe to drink
+- My tap water is always visually appealing
+- My tap water always has a pleasant taste
+- My tap water always has sufficient pressure
+
+
+** Scaling
+*** Likert
+
+*** Semantic Differential
+
+* Analysing Suyrveys
+
+** Protection agains bogus resposnes
+:PROPERTIES:
+:ID:       6fc638df-617e-4902-b63d-3a2e8bc77df3
+:END:
+
+Generative AI agents to complete surveys
+
+** Exploratory Analysis
+
+** Missing Data
+Imputation
+
+
+* Case Study
+** Consumer Involvement
+The fact that water is essential to life suggests that consumers of tap water have a high level of involvement with the service. Contrary to this common-sense intuition, practitioner experience and literature states that tap water is a low-involvement service [cite:@vloerbergh_2007_asses;@fagan_2011_elix;@babakus_1993_meas;@watson_consumer_2002]. However, the level of consumer involvement with tap water services has until now, not been empirically verified. This article presents empirical evidence of the level of involvement consumers in urban environments have with tap water as a service and proposes a solution to the apparent involvement paradox.
+
+Consumer involvement is defined as "a person’s perceived relevance of the object based on inherent needs, values, and interests" [cite:@zaichkowsky_1985_meas]. The involvement construct is important to water utilities as it has been found to be linked to a consumer’s willingness to pay for services [cite:@cohen_consumer_2000] and to their perceptions of the service’s quality [cite:@espejel_2009_infl].
+
+The most commonly used methodology to measure involvement is the Personal Involvement Inventory [cite:@zaichkowsky_1994_pers]. This scale has two dimensions: cognitive involvement (importance, relevance, meaning, value and need) and affective involvement (interest, excitement, appeal, fascination and involvement).
+
+The PII uses a semantic differential scale, shown in table [[tab-pii]]. Respondents were presented with two words and asked to tick a box closest the most relevant word. This method provides a score between 1 and 10 for each of the ten questions in the scale. Six of the items (p01, p02, p07, p08, p09, p10) were presented in reversed polarity. So, these items were scored from high to low involvement. This method is often used to prevent respondents from ticking the same box for each item and force.
+ 
+#+caption: Personal Involvement Index Scale.
+#+name: tab-pii
+| Dimension   |             |         <r> | Item |
+|-------------+-------------+-------------+------|
+| Importance  | Important   | Unimportant | p01  |
+| Relevance   | Relevant    |  Irrelevant | p02  |
+| Meaning     | Meaningless |  Meaningful | p03  |
+| Value       | Worthless   |    Valuable | p04  |
+| Need        | Not needed  |      Needed | p05  |
+| Interest    | Boring      | Interesting | P06  |
+| Excitement  | Exciting    |  Unexciting | P07  |
+| Appeal      | Appealing   | Unappealing | p08  |
+| Fascination | Fascinating |     Mundane | P09  |
+| Involvement | Involving   | Uninvolving | p10  |
+
+Figure [[fig-pii-boxplot]] visualises the distribution of the results or each of the ten PII items.  The raw scores for reversed items were corrected to ensure the scale has the same polarity.
+
+We can draw some preliminary conclusions from these results. The first five questions, which relate to cognitive involvement score higher than the remaining questions about affective involvement. This make intuitive sense because water is essential to life, but we don't tend to form an emotional relationship with water as we do with other products, such as our cars.
+
+#+begin_src R :results output file graphics :file images/pii_distribution.png :width 1200 :height 600
+  ## Cleaning customer survey data
+  library(readr)
+  library(dplyr)
+  library(ggplot2)
+  library(tidyr)
+
+  # Suburb dimension table
+  suburbs_dim <- tibble(suburb = 1:3,
+                        suburb_name = c("Merton", 
+                                        "Tarnstead", 
+                                        "Wakefield"))
+
+  # Clean data
+  customers <- read_csv("data/customer_survey.csv")[-1, ] |>
+    type_convert() |>
+    filter(is.na(term)) |>
+    left_join(suburbs_dim) |>
+    rename(customer_id = V1) |>
+    select(c(1, 52, 21:51, -33))
+
+  # Personal Involvement Index
+  pii_raw <- select(customers, customer_id, starts_with("p")) |>
+    mutate(p01 = 8 - p01,
+           p02 = 8 - p02,
+           p07 = 8 - p07,
+           p08 = 8 - p08,
+           p09 = 8 - p09,
+           p10 = 8 - p10) 
+
+  pii <- pii_raw[complete.cases(pii_raw), ] |>
+    pivot_longer(-customer_id, names_to = "Item", values_to = "Response")
+
+  # Visualise PII
+  ggplot(pii) +
+    aes(Item, Response) +
+    geom_boxplot(fill = "lightgrey") +
+    theme_minimal(base_size = 40) +
+    labs(caption = paste("n =", nrow(pii) / 10))
+#+end_src
+#+caption: Distribution of responses to the PII survey.
+#+name: fig-pii-boxplot
+#+RESULTS:
+[[file:images/pii_distribution.png]]
+
+These findings seem to contradict the general wisdom in water utility and business literature that the level of consumer involvement in tap water is low. The fact that water is essential to life suggests that consumers of tap water have a high level of involvement with the service. This situation seems paradoxical because both assertions cannot be true at the same time. This paradox can be resolved by looking at involvement from two different angles. Tap water as an essential product will logically attract a high level of cognitive involvement because life in the developed world without it is unthinkable. However, as a non-branded, undifferentiated, monopolistic service, the level of affective involvement it attracts will be significantly lower [cite:@prevos_2017_cust].
+
+But are we justified in drawing this conclusion based on a cursory review of a series of boxplots? We need to undertake some further statistical analysis to ensure that we are actually measuring what we think we measure (consumer involvement) and that 
+
+* Reliability and Validity
+** Reliability
+
+Figure [[fig-pii-corr]] visualises the correlations between the individual items. For a measure with high validity we expect 
+
+#+begin_src R :results output file graphics :file images/pii_correlations.png :width 600 :height 600
+  pii_cor <- round(cor(pii_raw[, -1], use = "complete.obs"), 2)
+
+  library(ggcorrplot)
+
+  ggcorrplot(pii_cor, show.diag = FALSE, outline.color = "white",
+             show.legend = FALSE, lab = TRUE) +
+    theme_minimal(base_size = 26) +
+    labs(x = NULL, y = NULL)
+#+end_src
+#+caption: Correlation matrix of the PII items.
+#+name: fig-pii-corr
+#+RESULTS:
+[[file:images/pii_correlations.png]]
+
+
+Cronbach alpha [cite:@devellis_2011_scale]
+
+#+begin_src R :results none
+  pii_cov <- cov(pii_raw[, -1], use = "complete.obs")
+  k <- ncol(pii_cov)
+  v <- mean(diag(pii_cov))
+  c <- mean(pii_cov[lower.tri(pii_cov)])
+  c_alpha <- (k * c) / (v + (k - 1) * c)
+  
+#+end_src
+
+The Cronbach alpha value for the PII results is 0.87.
+
+** Validity
+
+* Obtaining Survey Constructs
+Analysing the validity and reliability of a survey construct usually only occurs in the design phase of the scale. Once a bank of questions has 

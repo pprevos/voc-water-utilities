@@ -1,0 +1,22 @@
+#+title: Topic Analysis: What are Customers Talking About?
+
+When confronted with a large amount of text 
+
+The purpose of topic modelling is to understand the structure of a text corpus. We can, for example, analyse a collection of social media messages about tap water and let the model decide what topics they discuss, such as taste, price and pressure.
+
+In topic modelling, each document is represented as a predetermined number of topics. Each topic is a distribution over words.
+
+
+
+* Latent Dirichlet Analysis
+The most common method to extract topics from a text corpus is Latent Dirichlet Analysis (LDA). 
+
+[cite:@marwick_2013_disc; @oezdagoglu_2016_topic]
+
+** Coherence
+
+
+* Customer Contact Transcripts Case Study
+:NOTES:
+- [ ] Generate transcripts with =generate-aws-transcript.R=
+:END:

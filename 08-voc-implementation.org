@@ -1,0 +1,27 @@
+#+title: The Voice of the Customer in Managerial Practice
+#+macro:        voc /Voice of the Customer/
+
+
+
+
+* Experiential Data Collection
+One method not yet described in this book is using experiential methods to solicit the {{{voc}}}. This method is not commonly used by water utilities as it is expensive to undertake. This section provides an example of using taste testing as a method to collect experiential data.
+
+One of the most direct experiences that consumer have with tap water is its taste and odour, collectively known as flavour. Managing taste is a challenging proposition due to the complexity of water chemistry and the subjectivity of the human experience. Operational employees that have control over the taste of water quality often have little interaction with the customers that consume their product. Water utilities commonly use flavour profile analysis by a group of specially trained staff to test for aesthetic issues. Although this method provides scientific intelligence about the taste of water, it does not replicate the customer experience. Another method to find out how people experience water flavour is to use a large sample of people to taste drinking water. This sample of tasters can either be randomly selected customers, but also office staff at the water utility. 
+
+Replicating the customer experience for employees in the back office is a powerful way to create empathy for the needs and wants of the customer. A water utility in regional Australia has used  taste testing by employees as a method to recreate the customer experience in the office and develop empathy and collect  [cite:@prevos_2018_tast; @goetz_2016_tap].
+
+This event is called a Tap Crawl, which is a tongue-in-cheek name to internally promote the event. Employees of the utility are asked to taste a sample of water from each of the nineteen water systems they manage. The test is based on hedonic measurement using a seven-point Likert scale that records the extent to which subjects like or dislike the taste of water. Employees are also asked to describe the taste using the water flavour wheel [cite:@suffett_1999]. This method is more subjective than flavour profile analysis and requires a sample of thirty to fifty untrained subjects to provide a reliable result. Advantage of this method is that hedonic testing approximates the customer experience as closely as possible and provides actionable intelligence for water treatment engineers and operators. Customers are not trained in flavour profile analysis, so this method does not replicate their experience.
+
+More important than providing interesting data, the Tap Crawl events have spawned lively discussions about the differing taste experiences caused by the variety of water sources. Most interesting result was that, although the laboratory testing and complaints from customers already indicated that the experience of customers in some systems was not optimal, it took the Tap Crawl event to bring this issue to the attention of all levels within the organisation, including the board of directors.
+
+This internal marketing example has changed the attitudes of the employees of this utility towards the subjective customer experience. The results of the ongoing taste testing are now used in capital investment planning and the taste testing has been extended to also include customers. The taste of water has become a central topic in the utility's narrative about the customer experience and has played a central role in their most recent pricing submission to the economic regulator.
+
+
+
+* Data Ethics
+
+* Implementing
+
+
+

@@ -1,0 +1,306 @@
+#+title: Introduction
+#+latex_header: \usepackage{multirow}
+#+macro: voc /Voice of the Customer/
+#+bibliography: book/voc.bib
+
+* Motivation
+:NOTES:
+Customer focus is becoming more important because climate change and ageing assets require water utilities to inevst large sums of money and consequently raise prices.
+:END:
+Water is one of the most essential but often misunderstood natural resources. The spectre of water shortages in many areas around the world has increased the attention for water at an international level [cite:@zetland_2011_end; @fagan_2011_elix]. This attention is largely aimed at the future uncertainty of water supplies due to population growth\index{population growth} and climate change\index{climate change}. Whilst the availability of water is an urgent problem in need of solutions, regulators and society urge water utilities to become more focused on customers. This focus on customers goes beyond providing a reliable water supply through technological solutions. Recent societal developments have raised the expectations that customers have of all service providers, including water utilities.
+
+
+Water utilities have repeatedly been criticised in economics and business literature for lacking customer focus [cite:  @ahmed_2009_supp;@auriol_2008_infr; @deichmann_2007_cit;@skellett_1995_under;]. There is also societal pressure on water utilities to become more focused on the needs of their customers. Customer advocacy groups lobby the industry and government to ensure that water utilities improve the quality of their engagement with customers. Also, government regulators increasingly require detailed performance reports, including metrics on customer service [cite:@prevos_2017_cust].
+
+This increased attention from regulators on how utilities relate to customers has changed the industry profoundly. Regulatory frameworks often require water utilities to initiate customer service programmes. These programmes, however, are often more motivated by the reporting requirements of the regulator rather than by imperatives emerging from within the utilities [cite:@karbowiak_2003_mark]. Economic regulation acts as a proxy for the intrinsic motivational mechanisms that are present in competitive markets to drive service providers to become more focused on maximising value for their customers. Regulators can motivate of enforce behaviours in water utilities that mimic the behaviour in competitive markets [cite:@ben-david_2011_water].
+
+The criticism of lacking customer focus notwithstanding, water utilities are some of the most reliable service providers. Taxi company Uber is often lauded as an example of a market disrupter through their improvement of their industry's value proposition. It is interesting to note that this successful company is in fact inspired by the high level of service provided by water utilities. The Uber website stated in 2015 that they aspire to become "just as reliable as running water".
+
+Tap water is provided directly into the houses of consumers and the service is so reliable that it is taken for granted and has become a symbol of a modern civilised life [cite:@allon_2006_dams]. In places with well-functioning water supplies, water services are normalised and reside in the background of daily life. Tap water is so reliable that customers don't need to spare any thought about purchasing and consuming it. Consumers pay a relatively low time-price for their water, which renders it invisible to their daily lives. The time-price is the amount of time customers spend to use their water service, including billing, disruptions, complaints and so on. In tap water supply systems the time price trends to zero, customers open a tap and clean water appears. In areas without improved water supply, this time price can amount to several hours per day. Given that value is a function of the total cost to a customer, the lower the time price, the higher the level of service.
+
+The dissertation on which this book is based develops the notion of the \emph{Invisible Water Utility} [cite:@prevos_2016_invis]. This idea refers to the fact that the providers of tap water are invisible to consumers. Services provided by these organisations are neither differentiated nor branded and are enjoyed as a matter of course. Although this normalisation of water is one of the great achievements of the past century, it has also disconnected users from the source of water and from the organisations that provide this precious resource to their homes. 
+
+The invisibility of the process of service provision, combined with the fact that water utilities are monopolies has also rendered them invisible to business scholars, including the field of marketing [cite: @kurland_2010_water;@patsiaouras_2015_mark;]. The central theme of this book is that the invisibility of this industry in marketing scholarship and practice needs rectification. 
+
+The managerial objective of this book is to enhance the current discourse on service-centric provision of tap water by proposing a framework based on marketing theory. This framework has been developed specifically for this sector to assist managers with maximising the value they provide to customers. This book advocates that using marketing theory is of value in the same way that physics and biology is used to provide core services. It is not argued that social sciences should replace the physical sciences, or that they are superior. The social sciences and the physical sciences are both necessary to manage a successful water utility. 
+
+This book focuses on tap water services provided by water utilities. Sewerage and stormwater services have different characteristics so the same principles that apply to tap water supply cannot be directly translated to these services.
+
+* What is the Voice of the Customer?
+:NOTES:
+- [ ] From TQM to marketing [cite:@griffin_1993_voic]
+- [ ] WuM is different
+:END:
+Humans have been recording their thoughts, conversations, hopes and dreams in written language for thousands of years. The earliest record of the voice of the customer is from 1750 BCE. A customer named Nanni wrote a complaint on Akkadian cuneiform clay tablet to a copper trader lamenting the poor service. [REF] We no longer use clay tablets but electronic records. Electronic communication leaves digital footprints through the complete customer journey, which allows service providers to understand the needs of their customers. Whether these records will survive four millennia is doubtful, but they are certainly useful in the present.
+
+** Establishment
+TQM [cite:@griffin_1993_voic]
+
+** Marketing
+:NOTES:
+- [ ] VoC and service quality (is it all really service evaluation?) Service quality multimodal methods
+:END:
+
+
+** Water Utility Marketing
+:NOTES:
+- [ ] Demarketing
+:END:
+Marketing theory and practice has been developed over the past century to help commercial organisations maximise profits. These models are less applicable to water utilities who operate in a natural monopoly.
+
+Water utility services are distinctively different to regular commercial services in many ways.
+
+Standard marketing theory cannot be directly applied to water utilities because of the distinctive features of this service. Firstly, water utilities operate in a natural monopoly.
+
+Water services are delivered at 'arm's length' because the customer in principle almost never has to contact the service provider. This is typical for all networked service, such as 
+
+To understand the voice of the customer we need to move beyond the water meter. 
+
+** Who are Customers?
+If we need to define the concept of the {{{voc}}} then we need to develop an understanding of who are customers water utility customers and what are their 'voices'.
+
+The word customer indicates a commercial relationship between an individual and an organisation for the purpose of economic exchange. In pulic service, this label is restrictive because a customer is not necessarily the person consuming the service. This difference is expressed in the distinction between customers and consumers. However, as public service providers, the responsibilities of water utilities reach beyond their contractual relationship with customers and includes the community as a whole.
+
+The international standard for the assessment and improvement of water services describes a customer as a ``registered user'' [cite:@iso24510]. Water utilities generally keep records of who their consumers are through their billing database or customer relationship management system. Most such systems equate customers with a connection to the reticulation. Each connection has one or more registered users.
+
+These two paragraphs show that there various labels for customers exist that depend on the context in which we define them. In the narrow view, customers are those people which can be identified by the water utility as being responsible for paying the bill and in the broadest context the utility looks after the whole of the community.
+
+Research into customer laellebing showed that industry journal articles contain a wide range of synonyms to describe the beneficiaries of water utility services [cite:@prevos_2017_cust]. These labels are interchangeable as some articles use customer and consumer in the same context. This interchangeability is an artefact of the monopoly conditions in which utilities operate. Within any given service area, the public and the community are water consumers, every household is connected to the water system and, within each household there is at least one customer. There are significant semantic differences between these terms, but the interchangeability of their usage indicates that these labels refer to the same people.
+
+The labels used to describe beneficiaries of services provide insight into the relationship between customers and their service provider [cite:@syed_2011_cust; @plangger_2013_nomen]. Drawing from sociological labelling theory, words (labels) used to denote customers influence the nature of the relationship between service providers and customers. The terminology a firm uses to label its customers alters how customers expect to be treated in their dealings with them. For example, a student has a different relationship with her service provider than a client or a patient. Using the word student or patient implies an imbalance in power where the customer is not always right. Using the word customer signifies a relationship that is weighted the other way.
+
+Labelling theory suggests that nouns used to refer to people are mental shortcuts that extend beyond their dictionary entry. A label activates a cognition about a group of individuals, which affects how members of the organisation think about and act toward that group [cite:@plangger_2013_nomen]. For example, the word `consumer' can be interpreted as more distant and impersonal than using `customer'. A consumer is an anonymous person who consumes, while a customer has a relationship with the service provider [cite:@syed_2011_cust]. The label ascribed to somebody defines the relationship between the person being described and the person attaching the label. 
+
+Within the context of marketing a many labels is used to describe customers: `passenger', `guest', `patron', `shopper' and so on. The label relates to the expectations customers have of the level of service and the perceived obligations of the service provider. Labels define the psychological contract between the service provider and the customer, which can be visualised with a relationship ladder. More personal terms, such as "partner", score high on the obligation and expectation dimensions, while labels such as "user" indicate an impersonal relationship with low expectations on for both parties [cite:@plangger_2013_nomen].
+
+#+caption: Relationship ladder for water utility beneficiaries.
+#+name: fig-ladder
+[[file:images/relationship-ladder.png]]
+
+Evidence of customer labelling theory can be found in the use of customer labels in industry journals [cite:@prevos_2017_cust]. The highest number of search hits (public, community, household) can be placed low on the relationship ladder as they refer to groups of people. The other three labels (user, consumer and customer) can be placed on the higher end of the ladder as they refer to a more personal relationship (Figure \vref{fig:relationship-ladder}). The larger the number of people who fit into the label, the lower the strength of the relationship, i.e. referring to water beneficiaries as the public suggests a weaker relationship than referring to them as customers.
+
+This graph shows that collective labels are much more common in the IWA literature than individual customer labels. The collective labels emphasise the social benefits of water and the dominance of professional judgement while the singular labels emphasise the private benefits of water and consumer judgement \index{consumer judgement} \citep{laing_marketing_2003}. The more common use of collective labels over singular labels indicates a self-identification within the water utility industry as being a public service instead of a private service.
+
+** The Voice of the Customer in Water Utilities
+
+Customers utter their voice about the service provider either direct or indirect.
+
+The {{{voc}}} can also be derived indirectly through technical measurements in a water supply system. Water engineers measure pressure, flow and quality parameters that indirectly express how consumers experience a water service. These measurements express the engineer's perspective of a water system's performance, but that is not the same as the perspective of the customer.
+
+** Purpose
+:NOTES:
+- [ ] investment decisions
+- [ ] Yardstick competition
+- [ ] Pricing
+:END:
+
+Systematically understanding the {{{voc}}} can be useful when in investment planning. Triple Bottom Line (TBL) accounting, first coined by John [cite/t:@elkington_1998_accoun], compares economic, social and environmental costs and benefits to decide on the preferred solution to a problem. While the financial bottom line can be easily quantified, the other two are more qualitative in nature.
+
+Social accounting assesses the impact of an organisation on people internal and externally. The social bottom line relates to social capital, which Elkington relates to the level of trust a community has in an organisation. {{{voc}}} methods are as such an useful tool to rationally determine the social dimension of the TBL.
+
+
+* Phenomenology of the Customer Experience
+:NOTES:
+- [ ] Latent variables
+- [ ] neuromarketing
+:END:
+The voice of the customer is usually silent to the water utility. Unlike service provides that directly interact with their customer, water utilities provide services at 'arm's length'. This means that the customer's voice is mostly disembodied and only reaches the utility when something goes wrong. 
+
+The customer interacts with the core and supplementary services of the water utility. Tap water services are provided at arms' length because the customer can use the service at their leisure, without needing to contact the water utility. The customer interacts with the service interface and the utility manages the service factory.
+
+
+The experience of the customer is a complex phenomenon that starts with the objective physical qualities of the water, but is a subjective construct influenced by social and psychological forces. The phenomenology of water consumption is complex because objective physical parameters cannot be directly translated to the subjective customer experience. A consumer enjoying a bath might experience this as an event where she contemplates her life or generates creative ideas. Expressing this in physical parameters such as pH, turbidity and so on does not do justice to the customer's experience. Consumption of tap water is shaped by social expectations of cleanliness, pleasure-seeking behaviour and by the psychology of the consumer. The experience of tap water is thus defined by a complex a combination of factors, dominated by subjectivity.
+
+#+caption: Conceptual Framework for Voice of the Customer (VoC) in Water Utility Management. Icons provided by Flaticon.
+[[file:images/voice-of-the-customer.png]]
+
+The customer need is not the same as the attributes of a product (in this case water quality, pressure and availability). A customer need is an abstract context-dependent statement describing the benefits sought by a customer [cite:@timoshenko_2019].
+
+
+Both data from upstream and downstream of the tap need to be in balance.
+
+
+** Good water versus safe water
+[cite: @goetz_2016_tap;@prevos_2018_tast;]
+
+[[file:~/documents/websites/lucidmanager.org/static/images/water-marketing/safe-good-water.jpg]]
+
+** Water Utility Performance Measurement
+:NOTES:
+- [[denote:20190712T153951][ISO 24510: Improvement of the Service to Users]]
+- [cite:@berg_2010_water]
+:END:
+
+
+* Measuring the Voice of the Customer
+Most techniques to ascertain the {{{voc}}} are akin to mind reading. Water professionals become mentalists trying the extract the customer's state of mind from indirect data. All
+
+Most water professionals have a technical education and often struggle with the subjective nature of te {{{voc}}}. Understanding people is often describes as a 'soft skill' and contrasted with the hardcore physical sciences needed to manage water systems.
+
+Analysing the {{{voc}}} is certainly 'not rocket science'. This book shows that it is in fact much more complicated than rocket science. Even though technical professionals might believe that analysing social and psychological information is a soft skill, this book uses a mathematical approach to the problem. However, unlike the physical sciences, there is always a need for human interpretation and sense-making of the mathematical analysis.
+
+#+caption: The ServAqua model for service quality in water utilities.
+#+name: fig:servaqua
+#+begin_export html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .matrix-table {
+        border-collapse: collapse;
+        font-family: serif;
+        margin: 20px;
+    }
+    .matrix-table td, .matrix-table th {
+        padding: 10px 20px;
+        text-align: center;
+    }
+    /* The main data cells with borders */
+    .bordered {
+        border: 1px solid black;
+        width: 200px;
+        height: 80px;
+    }
+    /* Labels styling */
+    .label-bold {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    .label-italic {
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+
+<table class="matrix-table">
+    <tr>
+        <td></td>
+        <td></td>
+        <td colspan="2" class="label-bold">Perspective</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="label-italic">Intrinsic</td>
+        <td class="label-italic">Extrinsic</td>
+    </tr>
+    <tr>
+        <td rowspan="2" class="label-bold">Scope</td>
+        <td class="label-italic">Technical</td>
+        <td class="bordered">
+            Water Quality<br>
+            Pressure / continuity
+        </td>
+        <td rowspan="2" class="bordered">
+            Surveys<br><br>
+            Complaints<br><br>
+            Focus Groups<br><br>
+            Mystery Shopping
+        </td>
+    </tr>
+    <tr>
+        <td class="label-italic">Functional</td>
+        <td class="bordered">
+            Customer service metrics
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+#+end_export
+#+begin_export latex
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.5} % Adjusts row height for better spacing
+\begin{tabular}{cc|c|c|}
+\cline{3-4}
+ & & \multicolumn{2}{c|}{\textbf{Perspective}} \\ 
+ & & \textit{Intrinsic} & \textit{Extrinsic} \\ \cline{2-4}
+\multirow{5}{*}{\textbf{Scope}} & \multirow{2}{*}{\textit{Technical}} & Water Quality & Surveys \\
+ & & Pressure / continuity & Complaints \\ \cline{2-3}
+ & \multirow{2}{*}{\textit{Functional}} & Customer service & Focus Groups \\
+ & & metrics & Mystery Shopping \\ \cline{2-4}
+\end{tabular}
+\end{table}
+#+end_export
+
+
+** Explicit Measurement
+The common sense answer to the question how we measure VoC is to simply ask customers.
+
+- Quantitative: Scaled surveys
+- Qualitative: Free text survey responses, focus groups
+- Experiential: Taste testing
+
+** Implicit Measurement
+:NOTES:
+- [ ] SCADA
+  - [ ] Pressure
+  - [ ] Flow
+- [ ] Laboratory
+- [ ] Translation to customer perspective
+  - [ ] From pressure to flow (how fast do I fill my bucket?)
+:END:
+
+The root of all measurement is in the end socially motivated.
+
+Duncan (1984) argues that the roots of measurement lie in social processes and that these processes and their measurement actually precede science: "All measurement . . . is social measurement. Physical measures are made for social purposes" [cite:cited in @devellis_2011_scale;]. Water utility engineers and scientists measure the psychical, chemical and biological properties to achieve social objectives. They protect public health by providing clean drinking water, facilitate social cohesion by enabling swimming pools, enable food production, and whatever other purpose water has in society.
+
+** Qualitative versus Quantitative Data
+:NOTES:
+- [ ] Thick vs thin description
+:END:
+
+** Obtaining Text Files
+
+* How to Read this Book
+:NOTES:
+Chapters:
+2. [@2] Quantitative Customer surveys; Latent Variables and Factor Analysis.
+3. Qualitative data science: Human vs machine analysis
+4. Basic Text Analysis: descriptive analysis, DTM etc.
+5. Sentiment Analysis: 
+6. Topic Modelling: Discovering Latent Themes
+7. Experiential Analysis: Sensory Science and Controlled Experiments
+8. The Indirect Voice: SCADA, IoT, and Physical Proxies.
+9. Synthesis: Managerial relevance, practical implementation
+:END:
+
+The next chapter in this book discusses techniques to develop and analyse numeric surveys. These are surveys that don't contain any free-text answers. This chapter uses the techniques of psychometric analysis, which is the science of objectively measuring latent constructs, such as customer satisfaction and consumer trust, that cannot be measured directly. This chapter uses a case study using American water utility customer data and shows how to use advanced statistical techniques to test the validity and reliability of a survey and how to interpret the results.
+
+The remainder of the book discusses analysing qualitative text data that is collected from surveys, social media, customer interviews, call centre transcripts and any other such sources. Chapter [[#chap-qual]] discusses techniques to manually analyse textual data, using methods such as content and thematic analysis. With the advent of the internet these techniques are no longer sustainable because of the vast amount of textual data that is available. The second part of this chapter outlines computational methods to extract the {{{voc}}} from a large collection of texts (a corpus).
+
+Chapter [[#chap-text]] introduces the basic principles of statistically exploring a text corpus. This chapter explains how to convert a collection of texts into tokens and a Document Term Matrix, which converts unstructured textual data into  matrix that is suitable for statistical analysis. The first step of any textual analysis project is to summarise the content of the text corpus and the relationships between the most common words. This chapter uses a syntehtically-generated interview with a water utility customer as a case study.
+
+The following chapter shows how to extract customer sentiment from a collection of texts. A sentiment is a an explicit or implicit attitude that a customer expresses towards the service provided by a water utility. The case study for this chapter are a series of tap water tweets harvested from the social media platform formally known as Twitter.
+
+The penultimate chapter discusses methods to computationally determine the topic that a text describes. 
+
+The final chapter discusses methods to implement {{{voc}}} techniques in a water utility in various use cases. Extracting information from customers has ethical implications, so this book concludes with some thoughts and recommendations on collecting sensitive data from customers and using algorithmic fairness to ensure that the data is collected in the best interest of the community. 
+
+* Supplementary Material and Licensing
+This book is accompanied by relevant data and source code in the R language and environment for statistical computing [cite:@team_2026_r] and associated external packages to illustrate the analytical techniques described in this book. The supplementary material is provided through a GitHub repository.[fn:1]
+
+The source code is not included in the book and is not explained in detail. For more information on how to use the R language to solve water management problems, refer to /Data Science for Water Utilities/ [cite:@prevos_2023_r4h2o].
+
+All code in this repository is licensed under the GNU General Public License (version 3). This license grants four basic freedoms:
+
+- The freedom to run the program as you wish, for any purpose.
+- The freedom to study how the program works, and change it so it does your computing as you wish.
+- The freedom to redistribute copies so you can help others.
+- The freedom to distribute copies of your modified versions to others.
+
+The data used in the examples is mainly synthetic. The code used to synthesise this data is included in the Git repository. The data was synthesised using stochastic statistical distributions and a Large Language model. The data covers many operational aspects of a small water utility that services three imaginary towns with about 1,000 customers. The example data is not characteristic of water utility performance. The data is designed to include many interesting anomies. Using synthetic data is interesting because it is a bit like burying a treasure in your backyard and then try to find it again. However, all the code used in this repository have been road-tested in real-life situations.
+
+The source text for this book is written in Emacs org mode and made available through the online repository. This file format can be read in any text editor. When using Emacs, experienced users can generate the ebook, website and paperback versions of the book.
+
+The source code also contains scripts that were used to create most of the illustrations and data visualisations in this book. The source code 
+
+This repository also contains the Emacs text files used to generate this book. The text, images and data are licensed under Creative Commons (BY-NC-SA). This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms. CC BY-NC-SA includes the following elements:
+
+- BY: credit must be given to the creator.
+- NC: Only noncommercial uses of the work are permitted.
+- SA: Adaptations must be shared under the same terms.
+
+[fn:1] =https://github.com/pprevos/voc-water-utilities=

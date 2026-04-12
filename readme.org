@@ -2,10 +2,16 @@
 
 This project is provides open source book about methods to measure the /Voice of the customer/ (Voc) in water utilities. This project includes:
 
+- Book (Source files in Emacs Org mode)
+- Case study data sets (synthetic and actual)
+- Scripts analysing the case study data (R language for statistical computing)
+
 [[file:images/voice-of-the-customer.png]]
 
 * Voice of the Customer Book
-This book is written in Emacs Org mode format and the R language for statistical computing using literal programming.
+This book is written in [[https://github.com/pprevos/emacs-writing-studio][Emacs Org mode format]] and the R language for statistical computing. When completed, it wil be published as a paperback and made available through your favourite book seller.
+
+The Org mode source files to generate the book versions are available in this repository. Note that these are early drafts of the text as this is a work in progress:
 
 1. [[file:01-voc-introduction.org][Introduction]]
 2. [[file:02-voc-surveys.org][Quantitative Surveys]]
@@ -16,14 +22,11 @@ This book is written in Emacs Org mode format and the R language for statistical
 7. [[file:07-voc-indirect.org][Indirect Voice of the Customer Measurement]]
 8. [[file:08-voc-implementation.org][Synthesis]]
 
-* Scripts
-The =scripts= directory contains scripts for the case studies used in this book. All scripts are written in the Tidyverse dialect of the R language for statistical computing.
-
-* Data Examples
-The =data= directory contains the case study data used in this book. This data was collected from public sources or synthesises using statistical methods and Large Language Models.
-
-* Images
-All images in this repository were created by the author or generated using code.
+* Directories
+- =book=: Files to generate the book (bibliography)
+- =data=: Case study synthetic data files. This data was collected from public sources or synthesised using statistical methods and Large Language Models.
+- =images=: Book illustrations. All images in this repository were created by the author or generated using code.
+- =scripts= directory contains scripts for the case studies used in this book. All scripts are written in the Tidyverse dialect of the R language for statistical computing.
 
 * License and Copyright
 ** Code

@@ -1,0 +1,30 @@
+#+title: Inferring the Voice of the Customer from Operational Data
+
+* Introduction
+:NOTES:
+Using operational data to infer the voice of the customer
+:END:
+
+
+* The Time Price of Water
+The co-creation of services implies that consumers sacrifice time to use water, in addition to the fee paid for the service. One of the leading causes in the growth of services in the developed world is the willingness of consumers to outsource their non-discretionary time in order to obtain additional discretionary time. Using time to enjoy a service is an opportunity cost to the consumer. 
+
+A service provider can increase value to the consumer value by minimising the amount of time required to enjoy the service [cite:@davies_1996_time; @becker_1965_time]. [cite/t:@nordhaus_1997] investigated the time-price of illumination through human history. From building open fires in prehistoric times to light bulbs in more recent times, the time-price for illumination, measured in hours work per Lumen hours, has reduced dramatically over the course of human history. The time price for electric illumination has been reduced to flicking the switch, paying a monthly bill and occasionally replacing the light. This concept can also be applied to reticulated water services [cite:@williams_2012_seein].
+
+In contemporary reticulated water systems, the time-price incurred by consumers approaches is in principle equal to the amount of time required to use the water. The time price for water is approaching zero and only becomes noticeable in the case of service failures or inefficient facilitating services. When water is not available or not safe to drink, consumers incur a large time-price because they have to source water from alternative sources or boil contaminated water [cite:@macgillivray_2014_fast;@mccoy_reputational_2014]. Imposing restrictions on water consumption in times of scarcity is another example of imposing a time-price as consumers need to find alternative ways to achieve the benefits they normally obtain from water use [cite:@brennan_welfare_2007].
+
+The principle of a time-price for water is dramatically illustrated in arid developing countries. In these countries women labour hours every day to obtain their family's daily amount of water. The enormous time-price of water for these societies places a great psychological and economic burden on these societies \citep{brown_unequal_2010,stevenson_water_2012}. 
+
+The time price illustrates the value created by utilities. They provide convenience by minimising the time-price to the only the time it takes to consume water plus the time required to use necessary supplementary services. Minimising the time-price by providing adequate pressure, high quality water and minimising the need to use supplementary services are central to the value proposition of water utilities.
+
+The time price to consumer can be measured by the amount of times they need to contact their utility about their core service. Old research conducted by Wessex Water shows that customers contact their utility once every four to five years about a billing problem and once every ten to fifteen years about a service problem  [cite:@barrett_putting_1992]. The lower the contact frequency for non-value-adding activities, the lower the time cost and the higher the level of value provided to customers [cite:@prevos_2017_cust].
+
+* Measuring the Time Price
+:NOTES:
+- [ ] Water quality - Micro DALY [cite:@prevos_2015_heal]
+- [ ] Contacts per connection per year
+:END:
+
+* Complaints
+
+
