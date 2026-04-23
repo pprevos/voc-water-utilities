@@ -69,6 +69,8 @@ The psychological contract between the service provider and the customer can be 
 #+RESULTS:
 [[file:images/relationship-ladder.png]]
 
+It could be argued that labelling water consumers as customers is disingenuous because there is an inherent power imbalance between water utilities (or any other public service) and their beneficiaries. Customer's can't choose their water service provider and the core service is the same for everybody. A commercial organisation differentiates their service for each segment of their customer base. Labelling the community as customers and consumers is a strategic choice to provide a stronger relationships between the utility and the community, public service obligations not withstanding.
+
 Marketing scholars circumvent the labelling complexity by referring to anyone with a relationship with a service provider as a beneficiary [cite:@lusch_2014_sdl]. The neutrality of this term notwithstanding, this book uses "customer", ignoring labelling complexities and following common conventions. The term /Voice of the Beneficiary/ does not have the same ring as {{{voc}}}. When this book mentions customers, it can include any beneficiary of the process under consideration. The specific label applied to the customers whose voices we are interested in depends on the analysis context. When the VOC program focuses on capital investments then the customer can include anyone in the community. When, for example, analysing people in financial hardship, the term customer applies only to this subgroup of the total cohort of paying customers. 
 
 ** DRAFT The Voice of the Customer in Water Utilities
@@ -82,6 +84,8 @@ Customers express their views on the service provider, either directly or indire
 - [X] Yardstick competition
 - [ ] Pricing
 - [ ] Add details
+- [ ] VOC not as a "nice-to-have" or a bureaucratic burden, but as a risk-mitigation tool (e.g., identifying infrastructure failure before it becomes a catastrophe, thus reducing long-term OPEX).
+- [ ] 
 :END:
 The outcomes of a VOC program are an essential input into almost all decision processes in a customer-centric organisation. Whether for setting future prices, assessing investment options or designing new supplementary or supporting services. Continuous monitoring of the VOC is useful for performance reporting, both internally and externally.
 
@@ -138,6 +142,8 @@ The phenomenology of the customer experience prioritises the consumer's first-pe
 
 The phenomenology of water consumption is complex because objective physical parameters cannot always be directly translated to the subjective customer experience. A consumer enjoying a bath might experience it as an event in which she contemplates her life or generates creative ideas. Expressing this in terms of physical parameters such as pH, turbidity, and so on does not do justice to the customer's experience. The experience of tap water is thus defined by a complex a combination of factors, dominated by subjectivity.
 
+This book is not arguing to replace physical metrics in favour of subjective customer opinions. Both types of measurements are of equal importance to the effective functioning of a water utility, or any provider of technical services. The {{{voc}}} add a secondary sensory layer. Just as a pump has a vibration sensor to detect bearing wear, the VOC program is a "social sensor" for operational health.
+
 * How to Read this Book
 :NOTES:
 Chapters:
@@ -164,7 +170,7 @@ After discussing methods for analysing textual data, we also need to account for
 
 The penultimate chapter provides some examples of indirect VOC measurement using normal operational data. Monitoring pressure, quality, reliability, and other engineering parameters provides insight into the state of the water network, but only when recast from the customer's perspective. This chapter also describes an experiential method for generating VOC data by organising employee water-taste testing events.
 
-The final chapter discusses methods for implementing {{{voc}}} techniques across various use cases in a water utility. Extracting information from customers has ethical implications, so this book concludes with thoughts and recommendations on collecting sensitive customer data and using algorithmic fairness to ensure that the data is collected in the best interests of the community. 
+The final chapter discusses methods for implementing {{{voc}}} techniques across various use cases in a water utility. Knowing what customers talk about and how they feel about it is interesting, but we need to extract actionable insights from this data. Finally, extracting information from customers has ethical implications, so this book concludes with thoughts and recommendations on collecting sensitive customer data and using algorithmic fairness to ensure that the data is collected in the best interests of the community. 
 
 * Supplementary Material and Licensing
 This book is accompanied by relevant data and source code in the R language for statistical computing [cite:@team_2026_r] and associated external packages to illustrate the analytical techniques described in this book. The code used to analyse the case studies is not included in these pages, but is only available on a GitHub repository.[fn:1] For more information on how to use the R language to solve water management problems, refer to /Data Science for Water Utilities/ [cite:@prevos_2023_r4h2o].
